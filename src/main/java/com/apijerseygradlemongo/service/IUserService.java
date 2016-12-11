@@ -3,10 +3,10 @@
  */
 package com.apijerseygradlemongo.service;
 
-/**
- * @author eloi
- *
- */
-public interface IUserService {
+import com.apijerseygradlemongo.domain.entity.User;
 
+/**
+ * @author eloi eloibilek@gmail.com
+ */
+public interface IUserService extends IOperationsService<User> {
 }
